@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMAVacation.h"
+#import "MMAVacationManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

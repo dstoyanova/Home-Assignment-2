@@ -14,6 +14,13 @@
 		757BF2921ADD2BEF0091BF33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757BF2911ADD2BEF0091BF33 /* Images.xcassets */; };
 		757BF2951ADD2BEF0091BF33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757BF2931ADD2BEF0091BF33 /* LaunchScreen.xib */; };
 		757BF2A11ADD2BF00091BF33 /* Home_Assignment_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BF2A01ADD2BF00091BF33 /* Home_Assignment_2Tests.m */; };
+		757BF2AC1ADD2CB60091BF33 /* MMAVacation.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BF2AB1ADD2CB60091BF33 /* MMAVacation.m */; };
+		757BF2AF1ADD346F0091BF33 /* MMAVacationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BF2AE1ADD346F0091BF33 /* MMAVacationManager.m */; };
+		75EE135A1ADD45AE0067FBDF /* MMAVacationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE13591ADD45AE0067FBDF /* MMAVacationDetailViewController.m */; };
+		75FCE22F1ADDA20400C481AE /* Hotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75FCE22C1ADDA20400C481AE /* Hotel.jpg */; };
+		75FCE2301ADDA20400C481AE /* Beklemeto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75FCE22D1ADDA20400C481AE /* Beklemeto.jpg */; };
+		75FCE2311ADDA20400C481AE /* Monastery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75FCE22E1ADDA20400C481AE /* Monastery.jpg */; };
+		75FCE2331ADDA25400C481AE /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75FCE2321ADDA25400C481AE /* Default.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		757BF29A1ADD2BF00091BF33 /* Home-Assignment-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home-Assignment-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		757BF29F1ADD2BF00091BF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		757BF2A01ADD2BF00091BF33 /* Home_Assignment_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home_Assignment_2Tests.m; sourceTree = "<group>"; };
+		757BF2AA1ADD2CB60091BF33 /* MMAVacation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAVacation.h; sourceTree = "<group>"; };
+		757BF2AB1ADD2CB60091BF33 /* MMAVacation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAVacation.m; sourceTree = "<group>"; };
+		757BF2AD1ADD346F0091BF33 /* MMAVacationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAVacationManager.h; sourceTree = "<group>"; };
+		757BF2AE1ADD346F0091BF33 /* MMAVacationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAVacationManager.m; sourceTree = "<group>"; };
+		75EE13581ADD45AE0067FBDF /* MMAVacationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAVacationDetailViewController.h; sourceTree = "<group>"; };
+		75EE13591ADD45AE0067FBDF /* MMAVacationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAVacationDetailViewController.m; sourceTree = "<group>"; };
+		75FCE22C1ADDA20400C481AE /* Hotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hotel.jpg; sourceTree = "<group>"; };
+		75FCE22D1ADDA20400C481AE /* Beklemeto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beklemeto.jpg; sourceTree = "<group>"; };
+		75FCE22E1ADDA20400C481AE /* Monastery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Monastery.jpg; sourceTree = "<group>"; };
+		75FCE2321ADDA25400C481AE /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +98,21 @@
 		757BF2831ADD2BEF0091BF33 /* Home-Assignment-2 */ = {
 			isa = PBXGroup;
 			children = (
+				75FCE22C1ADDA20400C481AE /* Hotel.jpg */,
+				75FCE22D1ADDA20400C481AE /* Beklemeto.jpg */,
+				75FCE22E1ADDA20400C481AE /* Monastery.jpg */,
+				75FCE2321ADDA25400C481AE /* Default.jpg */,
 				757BF2881ADD2BEF0091BF33 /* AppDelegate.h */,
 				757BF2891ADD2BEF0091BF33 /* AppDelegate.m */,
 				757BF28B1ADD2BEF0091BF33 /* ViewController.h */,
 				757BF28C1ADD2BEF0091BF33 /* ViewController.m */,
+				75EE13581ADD45AE0067FBDF /* MMAVacationDetailViewController.h */,
+				75EE13591ADD45AE0067FBDF /* MMAVacationDetailViewController.m */,
 				757BF28E1ADD2BEF0091BF33 /* Main.storyboard */,
+				757BF2AA1ADD2CB60091BF33 /* MMAVacation.h */,
+				757BF2AB1ADD2CB60091BF33 /* MMAVacation.m */,
+				757BF2AD1ADD346F0091BF33 /* MMAVacationManager.h */,
+				757BF2AE1ADD346F0091BF33 /* MMAVacationManager.m */,
 				757BF2911ADD2BEF0091BF33 /* Images.xcassets */,
 				757BF2931ADD2BEF0091BF33 /* LaunchScreen.xib */,
 				757BF2841ADD2BEF0091BF33 /* Supporting Files */,
@@ -163,6 +190,7 @@
 		757BF2791ADD2BEF0091BF33 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MMA;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Desislava Stoyanova";
 				TargetAttributes = {
@@ -199,8 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75FCE22F1ADDA20400C481AE /* Hotel.jpg in Resources */,
 				757BF2901ADD2BEF0091BF33 /* Main.storyboard in Resources */,
+				75FCE2301ADDA20400C481AE /* Beklemeto.jpg in Resources */,
 				757BF2951ADD2BEF0091BF33 /* LaunchScreen.xib in Resources */,
+				75FCE2331ADDA25400C481AE /* Default.jpg in Resources */,
+				75FCE2311ADDA20400C481AE /* Monastery.jpg in Resources */,
 				757BF2921ADD2BEF0091BF33 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757BF2AF1ADD346F0091BF33 /* MMAVacationManager.m in Sources */,
+				757BF2AC1ADD2CB60091BF33 /* MMAVacation.m in Sources */,
 				757BF28D1ADD2BEF0091BF33 /* ViewController.m in Sources */,
 				757BF28A1ADD2BEF0091BF33 /* AppDelegate.m in Sources */,
+				75EE135A1ADD45AE0067FBDF /* MMAVacationDetailViewController.m in Sources */,
 				757BF2871ADD2BEF0091BF33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +451,7 @@
 				757BF2A61ADD2BF00091BF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		757BF2A71ADD2BF00091BF33 /* Build configuration list for PBXNativeTarget "Home-Assignment-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +460,7 @@
 				757BF2A91ADD2BF00091BF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
